@@ -6,6 +6,6 @@
 <body>
 
 <?php
-   include ("amz4lib.php");
+   include ("amz4lib.html");
 ?>
 
