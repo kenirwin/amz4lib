@@ -1,0 +1,1 @@
+''Amz4Lib'' is a bookmarklet that hides extraneous advertising information from an Amazon.com webpage and leaves only (mostly) the important bibliographic information. This allows the user to print out a sheet of paper with the information needed by a library's acquisitions department.
