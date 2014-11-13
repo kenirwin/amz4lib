@@ -1,35 +1,7 @@
 <html>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
 <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" type="text/css"/>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-  var tabsArray = ["one","two","three"];
-  var tabsList = "";
-  var i;
-  for (i = 0; i < tabsArray.length; i++ ) {
-		  tabsList += '<li><a href="#'+tabsArray[i]+'">'+tabsArray[i]+'</a></li>';
-		  }
-		  tabsList = '<ul id="tabs-header">' + tabsList + '</ul>';
-		  var lastIndex = tabsArray.length-1;
-
-		  var lastDiv = tabsArray[lastIndex];
-
-		  var first = '#' + tabsArray[0];
-		  var last = '#' + lastDiv;
-		  $(first).before(tabsList);
-		  var allTabs = '#' + tabsArray.join(',#');
-		  $('#tabs-header' + ',' +allTabs).wrapAll('<div id="tabs-wrapper">');
-		  $('#tabs-wrapper').tabs();
-
-
-
-		  
-
-
-
-});
-</script>
 <body>
 <div id="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dignissim lobortis velit, quis vehicula leo tincidunt et. Ut enim sapien, consequat quis elit nec, faucibus ultricies libero. Donec scelerisque mollis metus. Vivamus sit amet purus sit amet neque convallis tincidunt. Praesent ullamcorper risus erat, sit amet placerat felis pharetra sit amet. Nulla in libero viverra, bibendum ex vitae, ultricies metus. Pellentesque eu dui ut est viverra fringilla. Aliquam dapibus nisi vel odio venenatis commodo. </div>
 <div id="two">Nulla facilisi. Pellentesque volutpat nisi nec neque semper dictum. Integer porta congue lectus non faucibus. Cras accumsan sed ipsum quis aliquam. Donec in ipsum non erat pretium dignissim malesuada sed metus. Suspendisse aliquet ultrices risus et laoreet. Aenean eu magna dolor. Phasellus sollicitudin libero non tempor facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam rhoncus congue mauris, id sagittis lorem lobortis nec. Donec non commodo ligula, in aliquet eros. Vivamus at sodales purus. Duis imperdiet mollis sagittis. Praesent sit amet vehicula metus, at consequat elit. </div>
